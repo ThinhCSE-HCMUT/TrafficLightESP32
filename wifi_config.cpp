@@ -1,7 +1,7 @@
 #include "wifi_config.h"
 
-const char* ssid = "Redmi Note 13 Pro";         // SSID của mạng WiFi
-const char* password = "12341234"; // Mật khẩu WiFi
+const char* ssid = "YourSSID";         // SSID của mạng WiFi
+const char* password = "YourPassword"; // Mật khẩu WiFi
 
 void setupWiFi() {
   WiFi.mode(WIFI_STA);
